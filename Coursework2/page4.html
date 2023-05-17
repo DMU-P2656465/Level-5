@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EVIDENCE</h1>
+
+<p>Some more evidence that has been released by the 
+    police include some text messages between Sophie
+    and her partner. Some of these texts shown can be
+    distressing, but it is vital for evidence. 
+    These messages clearly show some kind of power
+    imbalance within the two parties of the relationship.
+    These messages were found in the archives of sophie's 
+    partners phone, proving to be very suspicious if
+    he is hiding messages that are extremely important 
+    within an investigation like this. </p>
+
+<img class="message" src="img/messages.png" 
+onmouseover="playAudio()"
+onmouseout="pauseAudio()">
+
+<audio id = "knifesound">
+
+<source src="audio/knife.wav"
+type ="audio/wav">
+<source src=" audio/knife.mp3"
+type ="audio/mp3">
+Your browser does not support the audio tag.
+</audio>
+
+<script>
+
+var audio = 
+document.getElementById("knifesound");
+var image = 
+document.getElementById("message");
+
+
+
+
+image.addEventListener("mouseover",
+function(){
+
+    audio.play();
+});
+
+image.addEventListener("mouseout",
+function(){
+    audio.pause();
+});
+
+</script>
+
+
+
+
+<br><br><br><br>
+<br><br><br><br>
+
+    <button class="Next" onclick="document.location='page5.html'"> Next Page </button>
+    <button class="Previous" onclick="document.location='page3.html'"> Previous Page </button>
+
+
+</body>
+</html>

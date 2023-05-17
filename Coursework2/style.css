@@ -1,0 +1,134 @@
+.title{
+    text-align: center;
+    font-family: cursive;
+
+
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-decoration: underline;
+ }
+
+
+
+
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body{
+    background-image: url('img/background.png');
+    background-color: rgb(172, 108, 30);
+    height: 10%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-block-start: 60px;
+}
+
+
+
+
+
+p{
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-left: 170px;
+    margin-right: 150px;
+    text-align: inherit;
+    /* margin on the text allowed the text to look more realistic and on a newspaper */
+}
+
+
+
+.crimescene{
+    align-items: center;
+    width: 1000px;
+    height: 700px;
+    margin-left: 200px;
+}
+
+
+.enlarge{
+width: 250px;
+height: 200px;
+float: left;
+margin-left: 150px;
+
+
+
+}
+
+.enlarge:hover{
+    width: 600px;
+    height: 800px;
+}
+
+
+.Next{
+    width: 100px;
+    height: 50px;
+    border-color: red;
+    background-color: red;
+    color: white;
+    float: right;
+    margin-right: 100px;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    /* float allows to move the button on the correct side of the page, as next is collerated with the right side, and if people want to go back, the previous button will be on the left */
+/*W3 schools used to find this feature, allows to link a page to a button, so once the button is clicked it'll take the user to the corrosponding page*/
+
+}
+.Previous{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-color: red;
+    background-color: red;
+    color: white;
+    float: right;
+    margin-right: 100px;
+    flex-direction: column-reverse;
+   
+
+}
+
+.map{
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-left: 350px;
+
+
+    }
+
+.message{
+    align-items: center;
+    margin-left: 450px;
+    margin-right: 200px;
+    width: 500px;
+    height: 900px;
+
+
+
+}
+
+
+.jail{
+
+    align-items: center;
+    width: 500px;
+    height: 300px;
+margin-left: 450px;
+}

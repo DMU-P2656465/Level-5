@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+<input id= "name">
+
+<div id="button">Enter Name</div>
+<h1 class="title">Leicestershire Times</h1>
+</head>
+<body>
+<h1>WHO DONE IT?</h1>
+
+
+
+
+<img class="enlarge" src="img/young woman.jpeg" alt="young woman"> 
+
+
+<script>
+
+    var image = document.querySelector('.enlarge');
+
+    image.addEventListener('mouseover'),
+    function(){
+        image.classList.add('enlarge');
+
+    };
+
+    image.addEventListener('mouseout'),
+    function(){
+        image.classList.remove('enlarge');
+    };
+
+
+</script>
+
+
+<p>
+    22 year old Sophie Smith was found brutally murdered in Leicestershire on the 5th September 2000. The suspect is unknown, but is beleived to be an aquaintance of Sophie. 
+    Sophie was a university student, and lived on the outskirts of Leicester where she lived with her parents while she was completing her degree. Sophie was loved by many,
+    and her mother describes her as 'A ray of sunshine on a rainy day'. Sophie was in her final year of her University experience and hoped to commit to her career in Journalism.  
+    It's suspected that she was on her own of the night of the murder, and had no plans with friends, or family. Meaning that this wasn't an accident & was possibly intended. 
+    The police are urging the public to come forward if they know anything about the night or saw anything suspicious around the date of the murder. This would be greatly appreciated
+    to give Sophie's parents the answers they deserve. 
+    It is known that Sophie had a partner at the time of her murder, but according to friends they were having an argument prior to the tragedy. She also lived with her parents while 
+    she was finishing her degree, and it was rumoured that her mother and father had their own relationship issues, causing a rift between Sophie and her Father's relationship.
+    
+ </p>
+
+
+<script>
+let Page = 1; 
+Page = Page += 1;
+let name = "Philippa" ;
+name = name + 'Boswell';
+console.log(name);
+
+let playing = false; 
+
+let input = document.getElementById ('name');
+document.querySelector('.menuItem');
+console.log(input);
+
+nextPage = () => {
+    console.log('working');
+}
+
+document.getElementById('next page'), addEventListener('click', nextPage);
+
+
+</script>
+<button class="Next" onclick="document.location='page2.html'"> Next Page </button>
+
+</body>
+</html>
